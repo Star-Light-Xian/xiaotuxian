@@ -114,3 +114,99 @@
 }
 
 /* 网页的底部 */
+.footer {
+  height: 580px;
+  background-color: #F5F5F5;
+}
+
+.slogan {
+  height: 178px;
+  border-bottom: 2px solid #E8E8E8;
+}
+
+.slogan ul {
+  height: 178px;
+  display: flex;
+  justify-content: space-evenly;
+  /* 垂直居中 如果需要生效的话 需要为ul添加高度 */
+  align-items: center;
+}
+
+.slogan ul li {
+  display: flex;
+  align-items: center;
+}
+
+.slogan ul li h5 {
+  width: 58px;
+  height: 58px;
+  background: url(../images/sprite.png) no-repeat;
+}
+
+.slogan ul li p {
+  font-size: 28px;
+  margin-left: 20px;
+}
+
+.slogan ul li .two {
+  /* 第二个图标 使用精灵图的方式来实现 */
+  background-position: 0 -58px;
+}
+
+.slogan ul li .three {
+  /* 第三个图标 */
+  background-position: 0 -116px;
+}
+
+.slogan ul li .four {
+  /* 第四个图标 */
+  background-position: 0 -174px;
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.service-left {
+  display: flex;
+  gap: 84px;
+}
+
+.service-left dt {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.service-left dd {
+  margin-bottom: 10px;
+}
+
+.service-left dd a i {
+  color: #00BE9A;
+}
+
+.service-right ul {
+  display: flex;
+  gap: 55px;
+}
+
+.service-right ul li p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* 最底部 直接使用盒子包起来 */
+.copyright {
+  text-align: center;
+  margin-top: 100px;
+  line-height: 30px;
+  color: #A1A1A1;
+
+}
+
+.copyright p a {
+  margin-left: 5px;
+  color: #A1A1A1;
+}
