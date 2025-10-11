@@ -74,6 +74,7 @@
     align-items: center;
 }
 
+/* 新鲜好物模块 列表项的背景颜色 */
 .box-bd ul li {
     width: 304px;
     height: 404px;
@@ -108,3 +109,64 @@
 .box-bd ul li p small {
     font-size: 16px;
 }
+
+/* 人气推荐模块 列表项的背景颜色 同新鲜好物模块有所不同 
+    由于权重问题 会覆盖掉新鲜好物模块的背景颜色
+ */
+.hot .box-bd ul li {
+    background-color: #FFFFFF;
+  }
+  
+  .hot {
+    margin-bottom: 60px;
+  }
+
+  .brand {
+    height: 468px;
+    background-color: #F5F5F5;
+  }
+
+  .hd {
+    height: 122px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hd h5 {
+    font-size: 30px;
+  }
+
+  .hd h5 small {
+    font-size: 16px;
+    color: #A1A1A1;
+    margin-left: 35px;
+  }
+
+  .hd a {
+    color: #A1A1A1;
+  }
+  .hd .divider{
+    height: 122px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .hd .divider a {
+    padding-left: 12px;
+    margin-bottom: 15px;
+  }
+  .hd .divider a:hover {
+    color: #5EB69C;
+  }
+
+  .ed ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+  }
+
+  .ed li {
+    width: 244px;
+    height: 306px;
+  }
