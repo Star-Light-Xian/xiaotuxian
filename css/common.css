@@ -45,7 +45,7 @@
 
 
 /* 1.2 header制作 */
-.header {
+.hearder {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,19 +53,19 @@
   /* background-color: pink; */
 }
 
-.header .logo {
+.hearder .logo {
   height: 88px;
   width: 200px;
   background-color: skyblue;
 }
 
-.header .logo h1 {
+.hearder .logo h1 {
   width: 100%;
   height: 100%;
 
 }
 
-.header .logo a {
+.hearder .logo a {
   /* a 是行内元素 设置宽高需要改成块内元素 */
   display: block;
   width: 100%;
@@ -81,13 +81,16 @@
   gap: 48px;
 }
 
+/* 导航栏的文字样式 */
 .nav li a {
   display: block;
   height: 40px;
   line-height: 40px;
+  font-size: 14px;
 }
 
-.nav li a:hover {
+/* 导航栏的鼠标悬停效果 */
+.nav li:hover a {
   color: #5EB69C;
   border-bottom: 2px solid #5EB69C;
 }
@@ -95,20 +98,19 @@
 .search input {
   width: 170px;
   height: 40px;
-  font-size: 16px;
-  border-bottom: 2px solid #F4F4F4;
   padding-left: 28px;
+  border-bottom: 2px solid #F4F4F4;
+  font-size: 14px;
 }
 
-.search input::placeholder{
-  font-size: 16px;
-  color: #ccc;
+.search input::placeholder {
+  font-size: 14px;
+  color: #CCC;
 }
 
 .cart i {
   font-size: 30px;
   margin-right: 24px;
 }
-
 
 /* 网页的底部 */
