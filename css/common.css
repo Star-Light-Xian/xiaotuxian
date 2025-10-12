@@ -95,6 +95,18 @@
   border-bottom: 2px solid #5EB69C;
 }
 
+.search {
+  position: relative;
+}
+
+.search i {
+  position: absolute;
+  top: 10px;
+  left: 3px;
+  font-size: 18px;
+  color: #CCC;
+}
+
 .search input {
   width: 170px;
   height: 40px;
@@ -106,6 +118,20 @@
 .search input::placeholder {
   font-size: 14px;
   color: #CCC;
+}
+
+.cart {
+  position: relative;
+}
+
+.cart span {
+  position: absolute;
+  left: 19px;
+  padding: 0 3px;
+  border-radius: 5px;
+  background-color: #E26237;
+  font-size: 14px;
+  color: #FFFEFE;
 }
 
 .cart i {

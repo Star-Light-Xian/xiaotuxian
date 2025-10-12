@@ -6,11 +6,17 @@
 }
 
 .entry .w {
+  position: relative;
   height: 500px;
-  background: url(../uploads/banner1.png) no-repeat;
+  /* background: url(../uploads/banner1.png) no-repeat; */
 }
 
 .entry .category {
+  position: absolute;
+  /* 分类导航栏 要在banner上面 */
+  z-index: 99;
+  top: 0;
+  left: 0;
   width: 250px;
   height: 500px;
   background-color: rgba(0, 0, 0, 0.4);
@@ -40,6 +46,32 @@
   font-size: 16px;
   margin-right: 14px;
 }
+
+.banner {
+  position: relative;
+}
+
+.banner .circle {
+  /* 使用定位 需要设置位置 */
+  position: absolute;
+  display: flex;
+  gap: 16px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.banner .circle li {
+  width: 14px;
+  height: 14px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+
+.banner .circle li:hover {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
 
 /* 这里主要是一些文字 但是子元素无法撑起高度 因此需要手动设置高度 */
 .box-hd {
