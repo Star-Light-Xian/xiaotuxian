@@ -50,3 +50,11 @@ h5,
 h6 {
   font-weight: 400;
 }
+
+
+/* 文本溢出公共样式 */
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
