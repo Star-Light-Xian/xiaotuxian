@@ -72,6 +72,37 @@
   box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.5);
 }
 
+.banner .arrow-right,
+.banner .arrow-left {
+  position: absolute;
+  top: 50%;
+  /* 使阴影盒子垂直居中 */
+  margin-top: -30px;
+  width: 30px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner .arrow-right {
+  right: 0;
+}
+
+.banner .arrow-left {
+  left: 250px;
+}
+
+.banner .arrow-right i,
+.banner .arrow-left i {
+  font-size: 24px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.banner .arrow-right i:hover,
+.banner .arrow-left i:hover {
+  color: #ff6900;
+}
+
 
 /* 这里主要是一些文字 但是子元素无法撑起高度 因此需要手动设置高度 */
 .box-hd {
