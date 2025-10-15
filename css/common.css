@@ -46,11 +46,14 @@
 
 /* 1.2 header制作 */
 .hearder {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 132px;
-  /* background-color: pink; */
+  background-color: #FFFEFE;
+  z-index: 999999;
 }
 
 .hearder .logo {

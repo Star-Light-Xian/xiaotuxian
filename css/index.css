@@ -1,5 +1,21 @@
-/* index专门的样式 */
+html {
+  /* 平滑滚动 */
+  scroll-behavior: smooth;
+}
 
+
+.back {
+  /* 固定定位 */
+  position: fixed;
+  right: 0;
+  bottom: 30px;
+  width: 40px;
+  height: 40px;
+  background-color: pink;
+}
+
+
+/* index专门的样式 */
 .entry {
   height: 500px;
   background-color: #F5F5F5;
@@ -93,7 +109,7 @@
 
 .banner .arrow-right i,
 .banner .arrow-left i {
-  font-size: 24px;
+  font-size: 30px;
   text-align: center;
   line-height: 60px;
 }
